@@ -1,0 +1,16 @@
+services:
+  open-geo:
+    build: .
+    image: open-geo:latest
+    container_name: open-geo
+    restart: unless-stopped
+    ports:
+      - "8092:8092"
+    environment:
+      - NODE_ENV=production
+      - PORT=8092
+      - DATA_DIR=/app/data
+    volumes:
+      - ./data:/app/data
+    env_file:
+      - .env
