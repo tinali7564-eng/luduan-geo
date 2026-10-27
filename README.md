@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🌐 OpenGEO
+# 🌐 Luduan GEO
 
 **The Open-Source Generative Engine Optimization (GEO) & AI Search Visibility Agent**  
 *Audit AI citation gaps, draft authoritative counter-citations, and ship fixes with Human-in-the-Loop review.*
@@ -15,13 +15,13 @@
 
 ---
 
-## 💡 What is OpenGEO?
+## 💡 What is Luduan GEO?
 
 As user search behaviors migrate from 10 blue links (Google/Bing) to conversational answer engines (**ChatGPT, Claude, Perplexity, DeepSeek, and Google AI Overviews**), traditional SEO is evolving into **Generative Engine Optimization (GEO)**.
 
 Most commercial GEO tools (Limelit, Profound, Peec AI) charge **$199–$999/month** just to give you read-only dashboards showing that an AI engine forgot your brand or cited your competitor.
 
-**OpenGEO is the first fully open-source, self-hostable GEO agent that closes the loop:**
+**Luduan GEO is the first fully open-source, self-hostable GEO agent that closes the loop:**
 1. **See (Detect)**: 24/7 autonomous monitoring of brand citations across major LLMs.
 2. **Fix (Draft)**: Automatically generates deep, RFC-grounded engineering guides, Schema.org FAQPage JSON-LD, and `llms.txt` knowledge capsules.
 3. **Review (Approval Inbox)**: Enforces **Human-in-the-Loop (HITL)** governance — *nothing ships without your explicit greenlight*.
@@ -83,8 +83,8 @@ Most commercial GEO tools (Limelit, Profound, Peec AI) charge **$199–$999/mont
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/dailytoolbox/open-geo.git
-   cd open-geo
+   git clone https://github.com/tinali7564-eng/luduan-geo.git
+   cd luduan-geo
    ```
 
 2. **Configure your environment**:
@@ -109,8 +109,8 @@ Most commercial GEO tools (Limelit, Profound, Peec AI) charge **$199–$999/mont
 **Requirements**: Node.js ≥ 22.5 (uses native `node:sqlite`)
 
 ```bash
-git clone https://github.com/dailytoolbox/open-geo.git
-cd open-geo
+git clone https://github.com/tinali7564-eng/luduan-geo.git
+cd luduan-geo
 npm install
 cp .env.example .env
 
@@ -122,7 +122,7 @@ npm start
 
 ## ⚙️ Configuration (`.env`)
 
-OpenGEO works with any OpenAI-compatible gateway (OpenAI, DeepSeek, Gemini, OneAPI, NewAPI, or local Ollama).
+Luduan GEO works with any OpenAI-compatible gateway (OpenAI, DeepSeek, Gemini, OneAPI, NewAPI, or local Ollama).
 
 ```env
 # Server
@@ -152,7 +152,7 @@ GEO_ENGINES='[
 
 ## 🔄 Delivery Connectors (How Drafts Ship)
 
-When you approve a draft in the **Approval Inbox**, OpenGEO can:
+When you approve a draft in the **Approval Inbox**, Luduan GEO can:
 1. **Local File Sync**: Writes to your static site / Next.js blog (e.g. `blog.ts` or markdown folder) and executes an automatic Git commit.
 2. **Webhook Dispatch**: Sends a JSON POST payload to your CMS (WordPress, Ghost, Webflow, Strapi).
 3. **IndexNow Broadcast**: Immediately sends an API ping to Microsoft Bing, Yandex, and AI search crawlers.
