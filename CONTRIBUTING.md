@@ -1,14 +1,14 @@
-# Contributing to OpenGEO
+# Contributing to Luduan GEO
 
-Thank you for your interest in contributing to OpenGEO! We welcome contributions of all kinds: bug fixes, documentation improvements, new LLM adapters, CMS delivery plugins, and feature suggestions.
+Thank you for your interest in contributing to Luduan GEO! We welcome contributions of all kinds: bug fixes, documentation improvements, new LLM adapters, CMS delivery plugins, and feature suggestions.
 
 ## Development Workflow
 
 1. Fork the repository on GitHub.
 2. Clone your fork locally:
    ```bash
-   git clone https://github.com/<your-username>/open-geo.git
-   cd open-geo
+   git clone https://github.com/tinali7564-eng/luduan-geo.git
+   cd luduan-geo
    ```
 3. Install dependencies:
    ```bash
