@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🌐 OpenGEO (开源生成式引擎优化智能体)
+# 🌐 Luduan GEO (开源生成式引擎优化智能体)
 
 **首个开源的 GEO（Generative Engine Optimization）与 AI 搜索可见度自主智能体**  
 *自动巡检大模型引用差距，深度生成权威对攻语料，通过人工审核箱（Approval Inbox）杜绝幻觉与风险，一键闭环上线与全网索引。*
@@ -15,13 +15,13 @@
 
 ---
 
-## 💡 为什么需要 OpenGEO？
+## 💡 为什么需要 Luduan GEO？
 
 随着全球用户的搜索习惯从传统搜索引擎的“10条蓝色链接”全面转向对话式 AI 引擎（**ChatGPT、Claude、Perplexity、DeepSeek、秘塔、Kimi、豆包**），传统的 SEO 正在全面演进为 **GEO（生成式引擎优化 / AEO）**。
 
 市面上现有的商业 GEO 工具（如 Limelit、Profound、Peec AI）动辄每月收费 **$199 ~ $999 美金**，且大部分只停留在“出体检报告”，告诉你“你在 ChatGPT 里没被推荐”，却无法自动帮你修复差距。
 
-**OpenGEO 是首个打破该局面的开源、可私有化部署的 GEO 智能体闭环系统：**
+**Luduan GEO 是首个打破该局面的开源、可私有化部署的 GEO 智能体闭环系统：**
 1. **感知（See）**：7×24 小时自主轮询各大模型，探测品牌被推荐率、竞品引用与事实幻觉。
 2. **修复（Fix）**：自动起草深度工程指南、Schema.org 结构化数据与 `llms.txt` 知识胶囊。
 3. **把关（Review · 核心创新）**：严格遵循 **Human-in-the-Loop（人工审核箱）** 原则 —— *没有任何内容会在未经人工确认的情况下自动发布，彻底杜绝 AI 幻觉与公关风险*。
@@ -81,8 +81,8 @@
 
 1. **克隆代码库**：
    ```bash
-   git clone https://github.com/dailytoolbox/open-geo.git
-   cd open-geo
+   git clone https://github.com/tinali7564-eng/luduan-geo.git
+   cd luduan-geo
    ```
 
 2. **配置环境变量**：
@@ -107,8 +107,8 @@
 **环境要求**：Node.js ≥ 22.5（依赖原生内置的 `node:sqlite`）
 
 ```bash
-git clone https://github.com/dailytoolbox/open-geo.git
-cd open-geo
+git clone https://github.com/tinali7564-eng/luduan-geo.git
+cd luduan-geo
 npm install
 cp .env.example .env
 
