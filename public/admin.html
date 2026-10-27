@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex,nofollow">
+  <title>管理后台 · 甪端 GEO</title>
+  <link rel="icon" type="image/png" href="/luduan-logo.png">
+  <link rel="stylesheet" href="/assets/app.css?v=__V__">
+</head>
+<body class="bg-[#0b0f19] text-slate-100 min-h-screen antialiased">
+  <header class="border-b border-slate-800 bg-[#0b0f19]/90 sticky top-0 z-30 backdrop-blur">
+    <div class="max-w-6xl mx-auto px-4 h-14 flex items-center justify-between">
+      <a href="/" class="flex items-center gap-2 text-sm font-bold"><img src="/luduan-logo.png" alt="" class="w-7 h-7 rounded-lg bg-slate-900 p-0.5"> 甪端 GEO · 管理后台</a>
+      <nav class="flex gap-1 text-xs" id="admin-nav">
+        <button data-tab="overview" class="chip">概览</button>
+        <button data-tab="inbox" class="chip">审核箱 (Inbox)</button>
+        <button data-tab="orders" class="chip">订单</button>
+        <button data-tab="users" class="chip">用户</button>
+        <button data-tab="leads" class="chip">咨询线索</button>
+        <button data-tab="redv" class="chip">红V资源</button>
+      </nav>
+    </div>
+  </header>
+  <main class="max-w-6xl mx-auto px-4 py-6" id="admin-main"><div class="skeleton h-40"></div></main>
+  <div id="toasts" class="fixed z-[60] top-3 left-1/2 -translate-x-1/2 w-[calc(100%-2rem)] max-w-md space-y-2 pointer-events-none"></div>
+  <script src="/assets/admin.js?v=__V__"></script>
+</body>
+</html>
