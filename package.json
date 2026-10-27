@@ -1,0 +1,26 @@
+{
+  "name": "open-geo",
+  "version": "2.1.0",
+  "description": "Open-Source Generative Engine Optimization (GEO) & AI Search Visibility Agent with Human-in-the-Loop Approval Inbox",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.5"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "build:css": "tailwindcss -c tailwind.config.cjs -i src/styles.css -o public/assets/app.css --minify",
+    "check-llm": "node scripts/check-llm.js"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.1132.0",
+    "cheerio": "^1.0.0",
+    "docx": "^9.7.1",
+    "express": "^4.21.2",
+    "nodemailer": "^10.0.8"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}
