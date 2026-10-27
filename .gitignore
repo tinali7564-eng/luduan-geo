@@ -1,0 +1,27 @@
+# Environment variables
+.env
+.env.local
+
+# Databases and persistent data
+data/*.db
+data/*.db*
+data/publish_queue/*
+!data/.gitkeep
+!data/publish_queue/.gitkeep
+
+# Dependencies
+node_modules/
+package-lock.json
+
+# Logs
+*.log
+logs/
+
+# OS and Editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.bak*
+scratch/
